@@ -1,0 +1,183 @@
+3 jump init:input init2:input first:input jump:2 first one first 
+7 first size
+3 start
+result1:0 
+
+start:7 init help2
+4 help2:0 three move
+7 init help3
+
+4 help3:0 nine stop
+3 one_check2
+
+move:1 init one help1
+1 init2 help1:0 init
+2 init one init
+
+one_check2:7 init help4
+4 seven help4:0 move1
+3 one_check3
+
+move1:1 init one init
+
+7 init help5
+7 help5:0 temp1
+1 temp1 size list_position
+
+1 init one init
+7 init help6
+7 help6:0 temp1 
+1 size temp1 list_position2 
+
+7 list_position:0 list_position2:0
+
+1 init one init
+
+one_check3:7 init help7
+4 help7:0 one move2
+3 one_check4
+
+move2:1 init one init
+7 init help8
+7 help8:0 temp1
+1 size temp1 first_number
+ 
+1 init one init
+7 init help9
+7 help9:0 temp1
+1 size temp1 second_number
+
+1 init one init
+7 init help10
+7 help10:0 temp1
+1 size temp1 result
+
+1 first_number:0 second_number:0 result:0
+
+1 init one init
+one_check4:7 init help11
+4 help11:0 two move3
+3 one_check5
+
+move3:1 init one init
+7 init help12
+7 help12:0 temp1
+1 size temp1 first_number1
+
+1 init one init
+7 init help13
+7 help13:0 temp1
+1 size temp1 second_number1
+
+1 init one init
+7 init help14
+7 help14:0 temp1
+1 size temp1 result2
+
+2 first_number1:0 second_number1:0 result2:0
+
+1 init one init
+
+one_check5:7 init help15
+4 help15:0 five move4
+3 one_check6
+
+move4:1 init one init
+7 init help16
+7 help16:0 temp1
+1 size temp1 first_number2
+
+1 init one init
+7 init help17
+7 help17:0 temp1
+1 size temp1 second_number2
+
+1 init one init
+7 init help18
+7 help18:0 temp1
+1 size temp1 result3
+
+5 first_number2:0 second_number2:0 jump1
+
+1 init one init
+3 start
+
+jump1:7 result3 init
+3 start
+
+one_check6:7 init help19
+4 help19:0 four move5
+3 one_check7
+
+move5:1 init one init
+7 init help20
+7 help20:0 temp1
+1 size temp1 first_number3
+
+1 init one init
+7 init help21
+7 help21:0 temp1
+1 size temp1 second_number3
+
+1 init one init
+7 init help22
+7 help22:0 temp1
+1 size temp1 result4
+
+4 first_number3:0 second_number3:0 jump3
+ 
+1 init one init
+3 start
+
+jump3:7 result4 init
+3 start
+
+one_check7:7 init help23
+4 help23:0 zero move6
+3 start
+
+move6:1 init one init
+7 init help24
+
+1 init one init
+7 init help25
+7 help25:0 temp1
+1 size temp1 second_number4
+
+7 help24:0 second_number4:0
+
+1 init one init
+3 start
+
+
+three:3
+six:6
+one:1
+two:2
+nine:9
+seven:7
+five:5
+four:4
+zero:0
+size:0
+temp1:0
+
+result3:0
+result4:0
+
+
+
+input:3 11 5 6 3 8 2 
+0 0 5
+1 9 3 9
+1 9 4 9
+1 9 5 9
+1 9 6 9
+1 9 7 9
+5 9 10 45
+2 9 10 9
+1 8 39 8
+3 31 9
+ 
+
+stop:9
