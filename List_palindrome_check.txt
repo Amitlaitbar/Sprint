@@ -1,0 +1,35 @@
+3 start address:list length:5 result:0
+
+start:1 address length last_address
+      2 last_address one last_address
+
+      7 first_address help
+      7 last_address help2
+
+      4 help:0 help2:0 jump 
+      3 halt 
+
+jump:1 first_address one first_address 
+     2 last_address one last_address
+
+     7 first_address help3
+     7 last_address help4
+
+     4 help3:0 help4:0 check
+     7 one result 
+     3 halt
+
+check:5 first_address last_address 
+      jump
+      3 store_result
+
+
+store_result:7 two result
+             3 halt
+
+first_address:list
+last_address:0
+two:2
+one:1
+halt:9
+list:1 2 7 2 1
