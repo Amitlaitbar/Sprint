@@ -1,0 +1,12 @@
+3 7 first_number:list length:5 target:5 result:0
+check:5 count length check2
+3 halt
+check2:4 target address:list copy
+1 address one address
+1 count one count
+3 check
+copy:7 one result
+halt:9
+one:1
+count:0
+list:15 3 45 9 8
